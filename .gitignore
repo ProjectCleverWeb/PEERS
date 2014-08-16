@@ -1,6 +1,3 @@
-### Ensure These ARE Included ###
-!.editorconfig
-
 ### Build Process ###
 /node_modules
 /npm-debug.log
