@@ -21,12 +21,12 @@ PEERS as a whole or pick-and-choose standards.
 
 **There are 7 standards, They are as follows:**
 
-- PEERS-0 Character Placement ([link](#))
+- PEERS-0 Style Guide ([link](#))
 - PEERS-1 Naming Conventions ([link](#))
 - PEERS-2 File-System Conventions ([link](#))
 - PEERS-3 Autoloading ([link](#))
-- PEERS-4 Client Languages ([link](#))
-- PEERS-5 Paradigms ([link](#))
+- PEERS-4 Paradigms ([link](#))
+- PEERS-5 Child Languages ([link](#))
 - PEERS-6 Commenting and Logging ([link](#))
 
 ## Getting Started
@@ -69,6 +69,15 @@ its' own file with its' sub-sections linked in the summery file.
 This means that if you are reading the summery for a standard, and you are
 confused about any section or sub-section, you can easily find a link to more
 information on that section or sub-section.
+
+## FAQs, Contributing, &amp; Definitions
+
+If you are curious about any of these topics please click the corrisponding
+link for each below:
+
+- [FAQs](https://github.com/ProjectCleverWeb/PEERS/blob/master/FAQ.md)
+- [Contributing](https://github.com/ProjectCleverWeb/PEERS/blob/master/CONTRIBUTING.md)
+- [Definitions](https://github.com/ProjectCleverWeb/PEERS/blob/master/DEFINITIONS.md)
 
 ## Licensing
 
