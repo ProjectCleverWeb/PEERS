@@ -23,11 +23,11 @@ PEERS as a whole or pick-and-choose standards.
 
 - PEERS-0 Style Guide ([link](#))
 - PEERS-1 Naming Conventions ([link](#))
-- PEERS-2 File-System Conventions ([link](#))
+- PEERS-2 Filesystem Conventions ([link](#))
 - PEERS-3 Autoloading ([link](#))
 - PEERS-4 Paradigms ([link](#))
 - PEERS-5 Child Languages ([link](#))
-- PEERS-6 Commenting and Logging ([link](#))
+- PEERS-6 Comments And Logging ([link](#))
 
 ## Getting Started
 
