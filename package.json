@@ -1,0 +1,21 @@
+{
+	"name": "peer-standards",
+	"description": "This is a quick-apply coding standard, based around the fundamentals of keeping everything easy to read while not wasting time typing lots of extra characters.",
+	"version": "1.0.0",
+	"keywords": [
+		"peers",
+		"standards",
+		"php",
+		"peer standards"
+	],
+	"homepage": "https://github.com/ProjectCleverWeb/PEERS",
+	"author": "Nicholas Jordon",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ProjectCleverWeb/PEERS.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ProjectCleverWeb/PEERS/issues"
+	},
+	"license": "CC-BY-SA-4.0"
+}
