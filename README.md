@@ -1,97 +1,78 @@
-###PHP Easy Efficiency &amp; Readability Standards (PEERS)
+# PEER Standards [![CC BY SA 4.0 and MIT License Badge](http://img.shields.io/badge/Licenses-CC--BY--SA%204.0%20and%20MIT-37BF79.svg?style=flat)](https://raw.githubusercontent.com/ProjectCleverWeb/PEERS/master/LICENSE)
 
-This is a quick-apply coding standard, based around the fundamentals of keeping
-everything easy to read while not wasting time typing lots of extra characters.
+aka *"PHP Easy Efficiency & Readability Standards"*
 
-Copyright &copy; 2014 Nicholas Jordon - All Rights Reserved<br>
-Licensed under the [CC BY SA](http://creativecommons.org/licenses/by-sa/4.0/) license.
+&nbsp;
 
----
+These are quick-apply coding standards, based around the fundamentals of
+keeping everything easy to read for everyone while not wasting time trying to
+explain how to handle every edge case scenario.
 
-##Status: Being Written
+**Status:** *[In Develpment](https://github.com/ProjectCleverWeb/PEERS/commits/master)*
 
----
+Copyright &copy; 2014 Nicholas Jordon - All Rights Reserved
 
-Each standard serves a logical purpose and is modular, meaning can you use PEERS as a
-whole or pick-and-choose groups of "sub-standards".
+&nbsp;
 
-There are 6 standards plus 1 alternative standard that can be applied to some or all
-of the other standards. They are as follows:
+## Overview
 
-- PEERS-0 (Character Placement)
-- PEERS-1 (Naming Conventions)
-- PEERS-2 (Autoloading)
-- PEERS-3 (Child Languages)
-- PEERS-4 (Paradigms)
-- PEERS-5 (Commenting and Logging)
-- PEERS-a (Alternatives)
+Each standard serves a logical purpose and is modular, meaning can you use
+PEERS as a whole or pick-and-choose standards.
 
-###Referencing Standards
+**There are 7 standards, They are as follows:**
 
-**All Standards**<br>
-If you are applying all of the standards to a project, the easiest way it to just use
-`PEERS` as the reference. However, this may be confusing those who are not familiar
-with the standards; so despite the redundancy, it is recommended that you use
-`PEERS Standards` as the reference.
+- PEERS-0 Character Placement ([link](#))
+- PEERS-1 Naming Conventions ([link](#))
+- PEERS-2 File-System Conventions ([link](#))
+- PEERS-3 Autoloading ([link](#))
+- PEERS-4 Client Languages ([link](#))
+- PEERS-5 Paradigms ([link](#))
+- PEERS-6 Commenting and Logging ([link](#))
 
-**Specific Standards**<br>
-If you are selective in what standards you wish to apply, you should be referencing
-them accordingly. If you were only using standards 0, 1, and 4, you would reference
-them as `PEERS Standards 0, 1, and 4`, `PEERS-014` or as
-`PEERS-0, PEERS-1, and PEERS-4`.
+## Getting Started
 
-**Alternative Standards**<br>
-Finally, if you want to use the alternatives of the standards, you would suffix the
-standard's number with an `a` or `A`, both are correct.
+#### Learning The Standards
 
-For example, if I wanted to use standards 0 &amp; 4 normally, but I wanted to use
-the alternative standard 1, I would reference them as `PEERS Standards 0, 1a, and 4`,
-`PEERS-01a4` or as `PEERS-0, PEERS-1a, and PEERS-4`.
+Standards are split into 2 parts, **The Summery** and **The Extended Documentation**.
 
-###Quick Integration
+Each standard has a summery file in its' directory. It is recommended that you
+start with reading each of the summeries that apply to your project; and then
+if you are not sure about a part (or parts) of a standard, read the extended
+documentation files that apply to those parts of the standard.
 
-Each standard has a summery page in the root of this reposiory, and each summery is
-is meant to help you understand the basics of each standard without bogging you down
-with overly specific information, egde-case scenarios, or overly verbose explinations.
+This means, that you'll get the gist of the standard and be able start working
+sooner. Then, when an edge case scenario comes into play, just check the
+extended documentation.
 
-The catch is that some parts of each standard may be ommited entirely. These parts
-still apply to the standard, and are only ommited to save time as they are a part of
-an "edge case" or are simply rarely an issue.
+#### Referencing Standards
 
-Additionally, the full documentation has extended examples for each section of each
-standard. So if something is not clear in the summery, you will always have more
-examples to browse in the full documentaion.
+If you're applying all of the PEER Standards, it is recommended that you
+reference them with a link to this repository. **Like this:**
 
-###Extended Information
+- This project uses [PEER Standards](https://github.com/ProjectCleverWeb/PEERS).
+- This project uses [PEERS](https://github.com/ProjectCleverWeb/PEERS).
 
-For information beyond the basics, each standard has a dedicated directory for its'
-content. Each directory has 1 main file labeled as
-`<standard_number>.0-<standard_name>` plus 1 file for each section of the standard,
-labeled as `<standard_number>.<section number>-<section_name>`.
+Alternatively, if you are only using specific standards, it is recommended that
+you link the specific standards in use. **Like this:**
 
-For example, if we are trying to look at PEERS-3 Section 2; we would find that file
-at `/PEERS-3/3.2-CSS.md`
+- This project uses PEER Standards [1](#), [3](#), and [5](#).
+- This project uses [PEERS-1](#), [PEERS-3](#), and [PEERS-5](#).
+- This project uses PEERS-[1](#)[3](#)[5](#).
 
-These documents are provided to clear up any questions that may arise, and much more
-verbose in their descriptions &amp; examples.
+#### Extended Documentation VS Summery
 
-The catch is that this documentation is a small book in its' own right, and can take
-a while to read completely and understand.
+There is a carefully managed balance between what is allowed in the summery,
+and what must only be in the extended documentation. In order to make the
+extended documentation easier to navigate, each section of a standard is given
+its' own file with its' sub-sections linked in the summery file.
+
+This means that if you are reading the summery for a standard, and you are
+confused about any section or sub-section, you can easily find a link to more
+information on that section or sub-section.
+
+## Licensing
 
 
-###Alternative Standards
+The PEER Standards documentation by Nicholas Jordon is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-Included with the main standards, is a set of alternative standards. These standards
-are largely the same as the main standards; but differ in key areas.
-
-###Licensing &amp; Copyright
-
-
-Copyright &copy; 2014 Nicholas Jordon - All Rights Reserved<br>
-PHP Easy Efficiency & Readability Standards (PEERS) by Nicholas Jordon is licensed
-under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
-
-
-
-
-
+The PEER Standards source code by Nicholas Jordon is licensed under the [MIT License](http://opensource.org/licenses/MIT).
